@@ -8,29 +8,45 @@
 </head>
 <body>
     <h1>Usando table e suas funções</h1>
-    <table border="1">
-        TABLE 01
-    <th>1</th>
-    <th>2</th>
-    <th>3</th>
-    <th>4</th>
-    <tr><td colspan="4" align="center">5(center)</td></tr>
-    <tr><td colspan="4" align="center">6(center)</td></tr>
-    <tr><td colspan="4" align="center">7(center)</td></tr>
+    <table border="1" width="350px" height="200px"><!-- borda envolta da "table" + alteração de altura e largura(height,width) -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <tr><td colspan="4" align="center">2</td></tr><!-- Alinhando para o centro e ocupando 4 espaços de "cell" -->
+    <tr><td colspan="4" align="center">2</td></tr><!-- Alinhando para o centro e ocupando 4 espaços de "cell" -->
+    <tr><td colspan="4" align="center">2</td></tr><!-- Alinhando para o centro e ocupando 4 espaços de "cell" -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+</table>
+    <table border="1" align="center"><!-- alinhando ao centro do site. -->
+        
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha01</td><!-- linhas -->
+                <td colspan="4">preenchidos</td><!-- ocupando 4 espaços de "cell" -->
+        </tr>
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha02</td><!-- linhas -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+        </tr>
     </table>
     <table border="1">
-        TABLE 02
-        <tr>
-                <td>linha01</td>
-                <td colspan="4">espaços preenchidos</td>
-        </tr>
-        <tr>
-                <td>linha02</td>
-                <td>""</td>
-                <td>""</td>
-                <td>""</td>
-                <td>""</td>
-        </tr>
+        <th>2</th>
+        <th>2</th>
+        <th>2</th>
+        <th>2</th>
+        <tr><td colspan="2">3</td><td colspan="2">3</td></tr>
+        <tr><td colspan="2">3</td><td colspan="2">3</td></tr>
+        <th>2</th>
+        <th>2</th>
+        <th>2</th>
+        <th>2</th>
+        
     </table>
 
 </body>
