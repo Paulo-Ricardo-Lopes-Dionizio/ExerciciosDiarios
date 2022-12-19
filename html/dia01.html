@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mexendo com o table</title>
+    <link rel="stylesheet" href="/css/style01.css"><!-- extensão para estilizar o site -->
+</head>
+<body>
+    <h1>Usando table e suas funções</h1><!-- Função de utilizar como titulo -->
+    <hr>
+    <table border="1" width="350px" height="200px"><!-- borda envolta da "table" + alteração de altura e largura(height,width) -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <tr><td colspan="4" align="center">2</td></tr><!-- Alinhando para o centro e ocupando 4 espaços de "cell" -->
+    <tr><td colspan="4" align="center">2</td></tr><!-- Alinhando para o centro e ocupando 4 espaços de "cell" -->
+    <tr><td colspan="4" align="center">2</td></tr><!-- Alinhando para o centro e ocupando 4 espaços de "cell" -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+    <th>1</th><!-- linhas -->
+</table>
+<hr><!--Divisão de linha-->
+    <table border="1" align="center" ><!-- alinhando ao centro do site. -->        
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha01</td><!-- linhas -->
+                <td colspan="4">preenchidos centro</td><!-- ocupando 4 espaços de "cell" -->
+        </tr>
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha02</td><!-- linhas -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+        </tr>
+    </table>
+    <table border="1" align="left"><!-- alinhando ao centro do site. -->        
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha01</td><!-- linhas -->
+                <td colspan="4">preenchidos esquerda</td><!-- ocupando 4 espaços de "cell" -->
+        </tr>
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha02</td><!-- linhas -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+        </tr>
+    </table>
+    <table border="1" align="right"><!-- alinhando ao centro do site. -->        
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha01</td><!-- linhas -->
+                <td colspan="4">preenchidos direita</td><!-- ocupando 4 espaços de "cell" -->
+        </tr>
+        <tr><!-- "tr" + "td" interno pode fazer coluna horizontal -->
+                <td>linha02</td><!-- linhas -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+                <td>""</td><!-- espaço ocupado -->
+        </tr>
+    </table>
+    <hr class="espaco">
+    <table border="1"width="100%"><!--Borda & largura por base do tamanho-->
+        <th>2</th><!-- linhas -->
+        <th>2</th><!-- linhas -->
+        <th>2</th><!-- linhas -->
+        <th>2</th><!-- linhas -->
+        <tr><td colspan="2" align="center">3</td><td colspan="2" align="center">3</td></tr><!-- espaço ocupando de 2x2 com diferentes "td" -->
+        <tr><td colspan="2" align="center">3</td><td colspan="2" align="center">3</td></tr><!-- espaço ocupando de 2x2 com diferentes "td" -->
+        <th>2</th><!-- linhas -->
+        <th>2</th><!-- linhas -->
+        <th>2</th><!-- linhas -->
+        <th>2</th><!-- linhas -->
+    </table>
+    <hr>
+    <table class="table01">
+        <tr>
+            <td class="td1" colspan="9">
+                <hr>
+                Aqui será colocado uma utilização desses ensinamentos em um parte com mais estilo
+                <hr>
+            </td>
+            
+        </tr>
+        <tr>
+            <tr><td  class="tr1" rowspan="2"><h2 style="text-align: center;text-shadow: 1px 1px 1px green;">Parte 1 Noticia</h2>Posuere venenatis vel inceptos aenean purus orci pellentesque class iaculis, scelerisque quisque vel pharetra mauris elit lacus lectus, pharetra purus habitasse elit mollis purus ligula aptent. duis hendrerit sed nec ligula consequat fermentum habitasse odio, urna amet nibh volutpat sociosqu volutpat libero venenatis, accumsan fames aenean mollis tortor ligula molestie. hac dictum tristique molestie vivamus consequat integer aptent nunc, laoreet ad quam euismod conubia aptent urna nisl, urna etiam habitasse suspendisse interdum facilisis non. viverra diam dictum ut nulla id vulputate porta cubilia egestas, neque iaculis non curabitur nisi ligula ornare malesuada, lectus mollis netus porttitor libero ullamcorper dapibus sit. 
+                Odio neque diam integer blandit justo ultrices quam pharetra suscipit.</td>
+                <td colspan="3"><h1 class="h1S">Titulo da Noticia(22222)</h1></td>
+                <td  class="tr1" rowspan="2"><h2 style="text-align: center;text-shadow: 1px 1px 1px green;">Parte 2 Noticia</h2>Posuere venenatis vel inceptos aenean purus orci pellentesque class iaculis, scelerisque quisque vel pharetra mauris elit lacus lectus, pharetra purus habitasse elit mollis purus ligula aptent. duis hendrerit sed nec ligula consequat fermentum habitasse odio, urna amet nibh volutpat sociosqu volutpat libero venenatis, accumsan fames aenean mollis tortor ligula molestie. hac dictum tristique molestie vivamus consequat integer aptent nunc, laoreet ad quam euismod conubia aptent urna nisl, urna etiam habitasse suspendisse interdum facilisis non. viverra diam dictum ut nulla id vulputate porta cubilia egestas, neque iaculis non curabitur nisi ligula ornare malesuada, lectus mollis netus porttitor libero ullamcorper dapibus sit. 
+                    Odio neque diam integer blandit justo ultrices quam pharetra suscipit.</td>
+            </tr>
+            
+            <td class="tr1" ><h2 style="text-align: center;text-shadow: 1px 1px 1px green;">Parte 3 Noticia</h2>Posuere venenatis vel inceptos aenean purus orci pellentesque class iaculis, scelerisque quisque vel pharetra mauris elit lacus lectus, pharetra purus habitasse elit mollis purus ligula aptent. duis hendrerit sed nec ligula consequat fermentum habitasse odio, urna amet nibh volutpat sociosqu volutpat libero venenatis, accumsan fames aenean mollis tortor ligula molestie. hac dictum tristique molestie vivamus consequat integer aptent nunc, laoreet ad quam euismod conubia aptent urna nisl, urna etiam habitasse suspendisse interdum facilisis non. viverra diam dictum ut nulla id vulputate porta cubilia egestas, neque iaculis non curabitur nisi ligula ornare malesuada, lectus mollis netus porttitor libero ullamcorper dapibus sit. 
+                Odio neque diam integer blandit justo ultrices quam pharetra suscipit.</td> 
+        </tr>
+        
+                 
+                 
+        
+
+        
+        
+        
+
+    </table>
+    
+
+</body>
+</html>

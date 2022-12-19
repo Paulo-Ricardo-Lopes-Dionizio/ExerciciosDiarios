@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');/*importando uma font direto do google*/
+.espaco{
+    margin-top:55px;/*espaçamento na margin superior, utilizei para colocar embaixo das tables de posicões(left,right,top)*/
+}
+.h1S{
+    text-align: center;/*alinhando ao centro o texto*/
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;/*chamando a font*/
+    text-shadow: 1px 1px 1px red;
+    color: white;
+}
+.table01{
+    background-color: black;
+    height: 300px;
+    
+}
+.td1{
+    
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.tr1{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgba(113, 0, 136, 0.164);
+    
+    padding-top: 100px;
+    box-shadow: -5px -5px 10px green;
+    padding-bottom:100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
