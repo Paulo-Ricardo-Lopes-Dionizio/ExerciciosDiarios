@@ -4,31 +4,34 @@
 }
 .h1S{
     text-align: center;/*alinhando ao centro o texto*/
-    font-size: 45px;
+    font-size: 45px;/*colocando tamanho pra o texto*/
     font-family: 'Bebas Neue', cursive;/*chamando a font*/
-    text-shadow: 1px 1px 1px red;
-    color: white;
+    text-shadow: 1px 1px 1px red;/*colocar envolta do enquadramento do objeto uma sombra*/
+    color: white;/*cor dos itens de texto*/
 }
 .table01{
-    background-color: black;
-    height: 300px;
+    background-color: black;/* cor de fundo*/
+    height: 50%;/*altura*/
     
 }
 .td1{
-    
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    text-align: center;
+    color: white;/*cor do itens de texto*/
+    font-family: 'Bebas Neue', cursive;/*fonte exportada sendo usada*/
+    text-align: center;/*alinhando texto ao centro*/
 }
 .tr1{
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    background-color: rgba(113, 0, 136, 0.164);
-    
-    padding-top: 100px;
-    box-shadow: -5px -5px 10px green;
-    padding-bottom:100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 20px;
+    color: white;/*cor dos itens de texto*/
+    font-family: 'Bebas Neue', cursive;/*fonte exportada sendo usada*/
+    background-color: rgba(113, 0, 136, 0.164);/*cor de fundo transparente ate um certo ponto*/
+    padding-top: 100px;/*colocando um espaçamento*/
+    padding-bottom:100px;/*colocando um espaçamento*/
+    padding-left: 50px;/*colocando um espaçamento*/
+    padding-right: 50px;/*colocando um espaçamento*/
+    border-radius: 20px;/*colocando um espaçamento*/
+}
+.tr1:hover{
+    transition: 1s;/*um tempo para acontecer as ações aqui*/
+    border:2px solid rgb(175, 3, 152);/*borda envolta do objeto*/
+    box-shadow: 10px 10px 10px rgb(119, 1, 103);/*colocar envolta do enquadramento do objeto uma sombra*/
+    background-color: rgba(113, 0, 136, 0.911);/*cor de fundo transparente ate um certo ponto*/
 }
