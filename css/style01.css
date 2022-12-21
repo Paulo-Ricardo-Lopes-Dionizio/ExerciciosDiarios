@@ -9,9 +9,27 @@
     text-shadow: 1px 1px 1px red;/*colocar envolta do enquadramento do objeto uma sombra*/
     color: white;/*cor dos itens de texto*/
 }
+.h1S:hover{
+    transition: 2s;
+    background-color: rgba(255, 0, 0, 0.589);
+    border: solid rgba(255, 0, 0, 0.226);
+    border-radius:50px ;
+}
+.img1{
+    margin-left: 30%;
+    margin-right: 15%;
+    width: 40%;
+    height: 20%;
+    border-radius:50%;
+}
+.img1:hover{
+    transition: 0.1s;
+    border:solid rgb(121, 255, 121);
+}
 .table01{
     background-color: black;/* cor de fundo*/
     height: 50%;/*altura*/
+    border-radius: 20px;
     
 }
 .td1{
@@ -22,7 +40,7 @@
 .tr1{
     color: white;/*cor dos itens de texto*/
     font-family: 'Bebas Neue', cursive;/*fonte exportada sendo usada*/
-    background-color: rgba(113, 0, 136, 0.164);/*cor de fundo transparente ate um certo ponto*/
+    
     padding-top: 100px;/*colocando um espaçamento*/
     padding-bottom:100px;/*colocando um espaçamento*/
     padding-left: 50px;/*colocando um espaçamento*/
@@ -32,6 +50,5 @@
 .tr1:hover{
     transition: 1s;/*um tempo para acontecer as ações aqui*/
     border:2px solid rgb(175, 3, 152);/*borda envolta do objeto*/
-    box-shadow: 10px 10px 10px rgb(119, 1, 103);/*colocar envolta do enquadramento do objeto uma sombra*/
     background-color: rgba(113, 0, 136, 0.911);/*cor de fundo transparente ate um certo ponto*/
 }
