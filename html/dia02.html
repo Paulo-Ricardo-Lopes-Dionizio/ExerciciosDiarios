@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style02.css">
+    <link rel="stylesheet" href="../css/style02.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>dia02</title>
 </head>
@@ -163,15 +163,39 @@
 <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Desabilitado</button>
 <!--opções de botões = bg-primary,success,info,warning,danger>
  -->
+ <hr>
  <div class="container-sm">
   <div class="card text-bg-primary mb-3">
     <span class="border border-success">
-      <h1>Aqui será aplicado os conhecimentos</h1>
+      <h1>Aqui será aplicado os conhecimentos do bootstrap</h1>
     </span>
-    
+      <div class="d-inline p-3 text-bg-dark">d-inline1</div>
+      <div class="d-inline p-2 text-bg-dark">d-inline2</div>
+      <div class="d-inline p-1 text-bg-dark">d-inline3</div>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="">Itens</a></li>
+        <li><a class="dropdown-item" href="">Itens</a></li>
+        <li><a class="dropdown-divider"></a> </li>  
+        <li><a class="dropdown-item" href="">Itens</a></li>
+        <li><a class="dropdown-item" href="">Itens</a></li>
+            
+      </ul>
+    </li>
+      <!--<ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>-->
+
   </div>
   
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>
